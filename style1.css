@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.adress {
+  margin: 20px 150px 0px 150px;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-floating1 {
+  width: 240px;
+}
+
+.form-floating2 {
+  width: 240px;
+  margin-left: 20px;
+}
+
+.form-control {
+  width: 500px;
+  margin-right: 20px;
+}
+
+.experience {
+  margin: 15px;
+}
+.experi {
+  font-size: 22px;
+}
+
+.table1,
+.table2 {
+  margin: 50px 150px 0px 150px;
+  overflow-x: auto;
+}
+
+.comment,
+.submit {
+  margin: 20px 150px 50px 150px;
+  width: 40%;
+}
+
+@media screen and (max-width: 810px) {
+  .adress {
+    margin: 20px 30px 0px 30px;
+  }
+  .comment,
+  .submit {
+    margin: 20px 30px 50px 50px;
+    width: 65%;
+  }
+  .table1,
+  .table2 {
+    margin: 50px 30px 0px 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .comment,
+  .submit {
+    width: 70%;
+  }
+}
